@@ -65,6 +65,7 @@ section {
   background-color: #080808a9;
   color: var(--white);
   margin-top: auto;
+ 
 }
 .para-div {
   width: 50%;
@@ -78,6 +79,14 @@ section {
 .project {
   background-color: #080808a9;
   color: var(--white);
+}
+.project-link{
+    color: white !important;
+    text-decoration:none;
+}
+
+.project-link:hover{
+    background-color: orange;
 }
 .contact {
   background-color: #0808083a;
