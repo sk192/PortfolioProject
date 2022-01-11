@@ -17,140 +17,132 @@
   --green: #006400;
 }
 
-
 body {
-    margin: 0;
-    font-size: 23px !important;
-    font-family:sans-serif !important;
-    
+  margin: 0;
+  font-size: 23px !important;
+  font-family: sans-serif !important;
+}
+
+.navbar {
+  background-color: var(--green);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 80%;
+}
+
+.nav-link {
+  display: inline-block;
+  color: white !important;
+  text-align: center;
+  padding: 14px;
+  padding-top: 19px !important;
+  padding-bottom: 19px !important;
+  text-decoration: none;
+}
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link:hover {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+section {
+  padding: 100px;
+}
+
+.about {
+  background-color: #080808a9;
+  color: var(--white);
+  margin-top: auto;
+}
+.para-div {
+  width: 50%;
+  margin-left: 26%;
+  text-align: center;
+}
+
+.resume {
+  background-color: #0808083a;
+}
+.project {
+  background-color: #080808a9;
+  color: var(--white);
+}
+.contact {
+  background-color: #0808083a;
+}
+
+#name,
+#email,
+#textarea {
+  padding: 5px;
+  border-radius: 5px;
+}
+.btn {
+  padding: 10px;
+  background-color: var(--gray2);
+  color: var(--white);
+  font-size: 24px !important;
+  margin-top: 8px;
+}
+.contact form {
+  margin-left: 38%;
+  border: 2px solid gray;
+  width: 25%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 0px;
+  background-color: var(--green);
+  padding: 20px;
+  color: var(--white);
+}
+.footer-link {
+  color: var(--white);
+  text-decoration: none;
+}
+.footer-link:hover {
+  background-color: var(--orange);
+  color: black;
+}
+
+@media (max-width: 414px) {
+  .contact form {
+    margin: auto;
+    border: 2px solid gray;
+    width: 130%;
+    padding: 15px;
+    border-radius: 10px;
   }
-  
- .navbar {
-    background-color: var(--green);
+}
+@media (min-width: 415px) and (max-width: 768px) {
+  .contact form {
+    margin: auto;
+    border: 2px solid gray;
     width: 100%;
-    position: fixed ;
-    top:0;
-    overflow: hidden;
-    z-index: 999;
-   
+    padding: 15px;
+    border-radius: 10px;
   }
-  .sticky{
-      position: fixed;
-      top: 0;
-      
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 80%;
-  }
-  
-  .nav-link {
-    display: inline-block;
-    color: white !important;
-    text-align: center;
-    padding: 14px;
-    padding-top: 19px !important;
-    padding-bottom: 19px !important;
-    text-decoration: none;
-  }
-  .nav-item {
-    display: inline-block;
-  }
-  
-  .nav-link:hover {
-    background-color: var(--orange);
-    color: var(--black);
-  }
-
-section{
-    padding: 100px;
 }
-
-.about{
-    background-color: #080808a9;
-    color: var(--white);
-    margin-top: auto;  
-   
-}
-.para-div{
-    width: 50%;
-    margin-left: 26%;
-    text-align: center;
-}
-
-.resume{
-    background-color: #0808083a;
-}
-.project{
-    background-color: #080808a9;
-    color: var(--white);
-}
-.contact{
-    background-color: #0808083a;
-}
-
-#name, #email,#textarea{
-    padding: 5px;
-    border-radius: 5px;
-}
-.btn{
-    padding: 10px;
-    background-color: var(--gray2);
-    color: var(--white);
-    font-size: 24px !important;
-    margin-top: 8px;
-   
-}
-.contact form{
-   margin-left: 38%;
-   border:2px solid gray;
-   width: 25%;
-   padding: 15px;
-   border-radius: 10px;
-}
-
-  footer{
-      margin-top: 0px;
-      background-color: var(--green);
-      padding: 20px;
-      color:var(--white);
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact form {
+    margin: auto;
+    border: 2px solid gray;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
   }
-  .footer-link{
-      color:var(--white);
-      text-decoration: none;
-  }
-  .footer-link:hover{
-      background-color: var(--orange);
-      color:black;
-  }
-
-  @media (max-width:414px){
-    .contact form{
-        margin: auto;
-        border:2px solid gray;
-        width: 130%;
-        padding: 15px;
-        border-radius: 10px;
-    }
-  }
-  @media (min-width:415px) and (max-width:768px){
-      .contact form{
-        margin: auto;
-        border:2px solid gray;
-        width: 100%;
-        padding: 15px;
-        border-radius: 10px;
-    }
-  }
-  @media (min-width:769px) and (max-width:1024px){
-      .contact form{
-        margin: auto;
-        border:2px solid gray;
-        width: 100%;
-        padding: 15px;
-        border-radius: 10px;
-    }
-  }
+}
