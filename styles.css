@@ -21,18 +21,22 @@
 body {
     margin: 0;
     font-size: 25px;
+    
   }
   
-  nav {
+ nav {
     background-color: var(--green);
     width: 100%;
+    position: fixed;
+    top:0
+   
   }
   
   .nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 700px;
+    margin-left: 80%;
   }
   
   .nav-link {
@@ -51,5 +55,62 @@ body {
   .nav-link:hover {
     background-color: var(--orange);
     color: var(--black);
+  }
+
+section.about{
+    background-color: #080808a9;
+    color: var(--white);
+    padding: 10px;
+    margin-top: 130px;
+   
+}
+.resume{
+    background-color: #0808083a;
+    padding: 10px;
+}
+.project{
+    background-color: #080808a9;
+    color: var(--white);
+    padding: 10px;
+}
+.contact{
+    background-color: #0808083a;
+    padding: 10px;
+}
+.name-div, .email-div, .textarea-div{
+    margin: 5px;
+   
+}
+#name, #email,#textarea{
+    padding: 3px;
+    border-radius: 5px;
+}
+.btn{
+    padding: 10px;
+    background-color: var(--gray2);
+    color: var(--white);
+    font-size: 20px;
+}
+.contact form{
+   margin-left: 35%;
+   border:2px solid gray;
+   width: 25%;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+  footer{
+      margin-top: 0px;
+      background-color: var(--green);
+      padding: 20px;
+      color:var(--white);
+  }
+  .footer-link{
+      color:var(--white);
+      text-decoration: none;
+  }
+  .footer-link:hover{
+      background-color: var(--orange);
+      color:black;
   }
   
