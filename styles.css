@@ -1,0 +1,55 @@
+:root {
+  --white: #ffffff;
+  --gray1: #333333;
+  --gray2: #555555;
+  --gray3: #cccccc;
+  --gray4: #aaaaaa;
+
+  --black: #080808;
+  --teal: #006060;
+  --lightteal: #008080;
+  --purple: #800080;
+  --navy: #000080;
+  --cyan: #17a2b8;
+  --violetred: #c71585;
+  --red: #ff0000;
+  --orange: #ffa500;
+  --green: #006400;
+}
+
+
+body {
+    margin: 0;
+    font-size: 25px;
+  }
+  
+  nav {
+    background-color: var(--green);
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 700px;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    color: var(--white);
+    text-align: center;
+    padding: 14px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-decoration: none;
+  }
+  .nav-item {
+    display: inline-block;
+  }
+  
+  .nav-link:hover {
+    background-color: var(--orange);
+    color: var(--black);
+  }
+  
