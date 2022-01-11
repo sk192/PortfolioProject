@@ -8,38 +8,40 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section>
-      <nav>
+   
+    <nav>
         <ul class="nav-list">
-          <li class="nav-item">
+            <li class="nav-item">
             <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <a href="#resume" class="nav-link">Resume</a>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <a href="#project" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <a href="#contact" class="nav-link">Contact</a>
-          </li>
+            </li>
         </ul>
-      </nav>
-    </section>
+    </nav>
+   
+    <section class="about" id="about">
+        <div class="about-div">
+            <h3><center>ABOUT ME</center></h3>
+            <center><img src="shweta_pic.jpg" style="width: 250px; height: 250px;border-radius: 50%;" /></center>
+            <p>
+                I am Shweta Korulkar. I am Computer Science graduate student at Portland
+                State University. I am graduating in March 2022. I am from India where I
+                completed my bachelor of Engineering and Master of Engineering in
+                computer science. I am passionate about coding and also like to do hike,
+                cycling, dance, water activity. I love to read books in my free time.
+            </p>
+        </div>
 
-    <section id="about">
-      <h3>ABOUT ME</h3>
-      <img src="shweta_pic.jpg" style="width: 200px; height: 200px" />
-      <p>
-        I am Shweta Korulkar. I am Computer Science graduate student at Portland
-        State University. I am graduating in March 2022. I am from India where I
-        completed my bachelor of Engineering and Master of Engineering in
-        computer science. I am passionate about coding and also like to do hike,
-        cycling, dance, water activity. I love to read books in my free time.
-      </p>
     </section>
-    <section id="resume">
-        <h3>RESUME</h3>
+    <section class="resume" id="resume">
+        <h3><center>RESUME</center></h3>
         <ul>
             <li><strong>Career Objective: </strong></li>
             <p>As a computer science student, I have knowledge in different fields and looking for entry-level full time
@@ -77,9 +79,9 @@
 
         </ul>
     </section>
-    <section id="project">
-        <h3>PROJECTS</h3>
-        <p><strong>*****Weather-Hike-WebApp*****</strong></p>
+    <section class="project" id="project">
+        <h3><center>PROJECTS</center></h3>
+        <p><strong><span style="color:rgb(70, 225, 65)">*****Weather-Hike-WebApp*****</span></strong></p>
         <ul>
             <li>
                 Responsive web application built with HTML, JavaScript, CSS. Integrated with react library and bootstrap responsive framework
@@ -105,7 +107,7 @@
                 purpose: learning web development, working with API, getting familiar with CSS framework.
             </li>
         </ul>
-        <p><strong>*****COVID-19 Dashboard*****</strong></p>
+        <p><strong><span style="color: rgb(70, 225, 65);">*****COVID-19 Dashboard*****</span></strong></p>
         <ul>
             <li>
                     Responsive web application built with HTML, JavaScript, CSS. Integrated with react library and bootstrap responsive framework
@@ -132,7 +134,7 @@
                 purpose: learning web development, working with API, getting familiar with CSS framework. 
             </li>
         </ul>
-        <p><strong>*****Battlecode Game*****</strong></p>
+        <p><strong><span style="color: rgb(70, 225, 65);">*****Battlecode Game*****</span></strong></p>
          <ul>
             <li>
                 MIT Battlecode game implemented in JavaScript using AI, path finding, chai/mocha testing framwwork. 
@@ -147,16 +149,34 @@
             </li>
         </ul>
     </section>
-    <section id="Contact">
-        <p><strong>CONTACT ME</strong></p>
-        <form>
+    <section class="contact" id="contact">
+        <p><strong><center>CONTACT ME</center></strong></p>
+        <form action="#" onsubmit="handleSubmit()">
             <div class="form-div">
-                <label for="email">Email: </label>
-                <input type="text" name="email" id="email">
-                <input type="submit" value="Submit" class="btn"><br>
+                <div class="name-div">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" placeholder="Enter Your Name" required><br>
+                </div>
+                <div class="email-div">
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email" required><br>
+                </div>
+                <div class="textarea-div">
+                    <textarea rows="10" cols="30" placeholder="Enter Subject" id="textarea"></textarea> 
+                </div>
+                 <input type="submit" value="Submit" class="btn" ><br>
+                
             </div>
 
         </form>
     </section>
+    <footer>
+        <center><span>Created By <a href="https://github.com/sk192/PortfolioProject" class="footer-link">Shweta Korulkar</a> </span></center>
+    </footer>
+    <script>
+        function handleSubmit(){
+            alert("The was submitted. Thank you.");
+        }
+    </script>
   </body>
 </html>
