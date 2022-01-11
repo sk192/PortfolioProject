@@ -1,43 +1,162 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA Compatible" content="ie=edge">
-            <title>Portfolio</title>
-            <link rel="stylesheet" href="styles.css" />
-        </head>
-        <body>
-            
-            <section>
-                <nav>
-                   
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#resume" class="nav-link">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Project" class="nav-link">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="about">
+      <h3>ABOUT ME</h3>
+      <img src="shweta_pic.jpg" style="width: 200px; height: 200px" />
+      <p>
+        I am Shweta Korulkar. I am Computer Science graduate student at Portland
+        State University. I am graduating in March 2022. I am from India where I
+        completed my bachelor of Engineering and Master of Engineering in
+        computer science. I am passionate about coding and also like to do hike,
+        cycling, dance, water activity. I love to read books in my free time.
+      </p>
+    </section>
+    <section id="resume">
+        <h3>RESUME</h3>
+        <ul>
+            <li><strong>Career Objective: </strong></li>
+            <p>As a computer science student, I have knowledge in different fields and looking for entry-level full time
+                    opportunity which enables me to contribute my skills and increase my experience.</p>
+            <li><strong>Education: </strong></li>
+            <ul>
+                <li><h4>March 2019 - March 2022 </h4>
+                    <b>Portland State University </b><br>
+                    Master of Science in computer science<br>
+                    CGPA: 3.64/4.0  Portland
+
+                </li>
+                <li><h4>Aug 2015 - Sept 2017 </h4>
+                    <b>Walchand Institute of Technology </b><br>
+                    Master of Engineering in computer science<br>
+                    CGPA: 9/10 India 
+                </li>
+                <li><h4>June 2011 - July 2015 </h4>
+                    <b>Nagesh Karjagi Orchid College of Engineering</b><br>
+                    Bachelor of Engineering in computer science<br>
                     
-                </nav>
-            </section>
-            
-            <section id="about">
-                <h3>About Me</h3>
-                <img src="shweta_pic.jpg" style="width: 200px;height: 200px;">
-                <p>I am Shweta Korulkar. I am Computer Science graduate student at Portland State
-          University. I am graduating in March 2022. I am from India where I
-          completed my bachelor of Engineering and Master of Engineering in computer science.
-          I am passionate about coding and also like to do hike, cycling, dance,
-          water activity. I love to read books in my free time.</p>
-            </section>
-        </body>
-    </html>
+                </li>
+            </ul><br>
+            <li><strong>Skills</strong></li>
+            <p>
+                <ul>
+                    <li>Python, C, Java, Linux, Shell script, JUnit, Integration testing, Unit testing</li>
+                    <br/>
+                    <li>HTML5, JavaScript,css, React, Node.js, Ajax, RESTful API, Chart.js, XML, Express, Bootstrap</li>
+                    <br/>
+                    <li>MySQL, PostgreSQL, NoSQL, MongoDB, SQL, PhpMyAdmin</li>
+                    
+                </ul>
+            </p>
+
+        </ul>
+    </section>
+    <section id="project">
+        <h3>PROJECTS</h3>
+        <p><strong>*****Weather-Hike-WebApp*****</strong></p>
+        <ul>
+            <li>
+                Responsive web application built with HTML, JavaScript, CSS. Integrated with react library and bootstrap responsive framework
+            </li>
+            <br/>
+            <li>
+                Used JS library <b>moment.js</b> to manipulate and display the current locat time of any geographic coordinates on the globe.
+            </li>
+            <br/>
+            <li>
+                Used OpenWeatherMap API for weather data
+            </li>
+            <br/>
+            <li>
+                Users can get any weather information by typing any specific location on the search bar.
+            </li>
+            <br/>
+            <li>
+                Weather information includes: current weather status (current degree, lowest/highest degree), forecast weather for the next 5 days.
+            </li>
+            <br/>
+            <li>
+                purpose: learning web development, working with API, getting familiar with CSS framework.
+            </li>
+        </ul>
+        <p><strong>*****COVID-19 Dashboard*****</strong></p>
+        <ul>
+            <li>
+                    Responsive web application built with HTML, JavaScript, CSS. Integrated with react library and bootstrap responsive framework
+            </li>
+            <br/>
+            <li>
+                Used covid-19 vaccination and covid cases dataset to get covid data.
+            </li>
+            <br/>
+            <li>
+                Displyed vaccination status information of all countries based on fully vaccinated and partially vaccinated people. Userd can select multiple contries to get comparision graph between countries vaccination status.
+                Users can also search for country to get total case count of that perticular country.
+            </li>
+            <br/>
+            <li>
+                Used <b>chart.js</b> to display graphical representation of information 
+            </li>
+            <br/>
+            <li>
+                Represented data using Donut chart, tables, line chart, bar chart.
+            </li>
+            <br/>
+            <li>
+                purpose: learning web development, working with API, getting familiar with CSS framework. 
+            </li>
+        </ul>
+        <p><strong>*****Battlecode Game*****</strong></p>
+         <ul>
+            <li>
+                MIT Battlecode game implemented in JavaScript using AI, path finding, chai/mocha testing framwwork. 
+            </li>
+            <br/>
+            <li>
+                In this game, virtual robots moves arround the borad while resource manipulating and attacking opponent team.
+            </li>
+            <br/>
+            <li>
+                Purpose: learning JavaScript, Unit testing, github, trello and slack. Experience working in collaborative environment.
+            </li>
+        </ul>
+    </section>
+    <section id="Contact">
+        <p><strong>CONTACT ME</strong></p>
+        <form>
+            <div class="form-div">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+                <input type="submit" value="Submit" class="btn"><br>
+            </div>
+
+        </form>
+    </section>
+  </body>
+</html>
