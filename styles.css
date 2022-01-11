@@ -20,16 +20,24 @@
 
 body {
     margin: 0;
-    font-size: 25px;
+    font-size: 23px !important;
+    font-family:sans-serif !important;
     
   }
   
- nav {
+ .navbar {
     background-color: var(--green);
     width: 100%;
-    position: fixed;
-    top:0
+    position: fixed ;
+    top:0;
+    overflow: hidden;
+    z-index: 999;
    
+  }
+  .sticky{
+      position: fixed;
+      top: 0;
+      
   }
   
   .nav-list {
@@ -41,11 +49,11 @@ body {
   
   .nav-link {
     display: inline-block;
-    color: var(--white);
+    color: white !important;
     text-align: center;
     padding: 14px;
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 19px !important;
+    padding-bottom: 19px !important;
     text-decoration: none;
   }
   .nav-item {
@@ -57,42 +65,47 @@ body {
     color: var(--black);
   }
 
-section.about{
+section{
+    padding: 100px;
+}
+
+.about{
     background-color: #080808a9;
     color: var(--white);
-    padding: 10px;
-    margin-top: 130px;
+    margin-top: auto;  
    
 }
+.para-div{
+    width: 50%;
+    margin-left: 26%;
+    text-align: center;
+}
+
 .resume{
     background-color: #0808083a;
-    padding: 10px;
 }
 .project{
     background-color: #080808a9;
     color: var(--white);
-    padding: 10px;
 }
 .contact{
     background-color: #0808083a;
-    padding: 10px;
 }
-.name-div, .email-div, .textarea-div{
-    margin: 5px;
-   
-}
+
 #name, #email,#textarea{
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
 }
 .btn{
     padding: 10px;
     background-color: var(--gray2);
     color: var(--white);
-    font-size: 20px;
+    font-size: 24px !important;
+    margin-top: 8px;
+   
 }
 .contact form{
-   margin-left: 35%;
+   margin-left: 38%;
    border:2px solid gray;
    width: 25%;
    padding: 15px;
@@ -113,4 +126,31 @@ section.about{
       background-color: var(--orange);
       color:black;
   }
-  
+
+  @media (max-width:414px){
+    .contact form{
+        margin: auto;
+        border:2px solid gray;
+        width: 130%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+  }
+  @media (min-width:415px) and (max-width:768px){
+      .contact form{
+        margin: auto;
+        border:2px solid gray;
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+  }
+  @media (min-width:769px) and (max-width:1024px){
+      .contact form{
+        margin: auto;
+        border:2px solid gray;
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+  }
