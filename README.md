@@ -7,7 +7,7 @@ This personal website provides information about me, my past project work experi
 
 # Working Stack
 - HTML
-- CSS 
+- CSS and bootstrap
 - JavaScript
 - github pages for website deployment
 
@@ -15,6 +15,7 @@ This personal website provides information about me, my past project work experi
 # Other Resourses Used
 - https://cssreference.io/ 
 - MDN site - https://developer.mozilla.org/en-US/
+- W3Schools - https://www.w3schools.com/
 
 
 # Deployed Website Link: 
