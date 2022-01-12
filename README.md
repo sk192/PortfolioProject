@@ -19,6 +19,7 @@ This personal website provides information about me, my past project work experi
 
 
 # Deployed Website Link: 
+https://sk192.github.io/portfolioproject/
 
 # Code execution
 run the html file in live Server
