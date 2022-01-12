@@ -6,14 +6,14 @@ I first started with basic layout like added navbar, body, footer. Then I added 
 
 After navbar, I started working on body sections. Added each section one after another. And navigated to each section using id attribute in <a> tag. 
 
-Also added Resume, Project and Contact section. Earlier though of importing resume pdf but the image wasn’t clear after trying importing PDF so ended up displaying information. Page responsiveness took time and added media query for that. Also checked the accessibility and performance of page.
+Also added Resume, Project and Contact section. Earlier thought of importing resume pdf but the image wasn’t clear after trying importing PDF so ended up displaying information. Page responsiveness took time and added media query for that. Also checked the accessibility and performance of page.
 
 In the future I would like to add images of projects and with next and previous button.
 
 
 Github project repository files workflow:
 
-    • portfolio.html – HTML page 
+    • index.html – HTML page 
     • styles.css – CSS file
       
 REFERENCE: 
@@ -27,8 +27,13 @@ REFERENCE:
 
 Github repository link:
 
-https://github.com/sk192/PortfolioProject
+https://github.com/sk192/portfolioproject
+
 
 Deployed project link:
+
+https://sk192.github.io/portfolioproject/
+
+
 
 
