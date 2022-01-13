@@ -6,7 +6,7 @@ I first started with basic layout like added navbar, body, footer. Then I added 
 
 After navbar, I started working on body sections. Added about section, project section, resume section and contact section one after another. And navigated to each section using id attribute in <a> tag. Also added navbar collapse option for small screen size.For each section I used different background color to differentiate each section. In about section, I displayed information about me. In projects section I added detail description of 3 projects and github/deployed site link. In resume section, I added information about my skills, career objective and Education. 
 
-Earlier thought of importing resume pdf but the image wasn’t clear after trying importing PDF so ended up displaying information. In contact section, I used contact form and displaying alert on submit the form. Also added CSS effects.
+Earlier thought of importing resume pdf but the image wasn’t clear after trying importing PDF so ended up displaying information. In contact section, I used contact form where you can enter your name, your email address and your query in the message section and displaying alert on submit the form. Also added CSS effects.
 
 Page responsiveness took time and added media query for that. Used bootstrap for contact form and checked the accessibility and performance of page using WAVE and lighthouse.
 
