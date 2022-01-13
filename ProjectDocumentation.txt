@@ -2,13 +2,15 @@
 
 Ever since the announcement of project I was wondering how should I represent the information like should I use different pages and navigation to these pages or should I use just single page and jumping on each section design. I wanted to create website using HTML, CSS and JavaScript as I already created two web application using React. So decided to create website only using HTML, CSS, JavaScript. 
 
-I first started with basic layout like added navbar, body, footer. Then I added links to navbar and navigated those links on different section of page. For navbar, I used <nav> with <ul> and <li> tag. Only difficulty I faced was with navbar collapsing on about section because of nav type css selector. Fixed this issue by using css for navbar class instead of nav type.  
+I first started with basic layout like added navbar, body, footer. Then I added links to navbar and navigated those links on different section of page. For navbar, I used <nav> with <ul> and <li> tag. Only difficulty I faced was with navbar collapsing on about section because I used nav type css selector. To fix this issue I used css for navbar class instead of nav type.  
 
-After navbar, I started working on body sections. Added each section one after another. And navigated to each section using id attribute in <a> tag. 
+After navbar, I started working on body sections. Added about section, project section, resume section and contact section one after another. And navigated to each section using id attribute in <a> tag. Also added navbar collapse option for small screen size.For each section I used different background color to differentiate each section. In about section, I displayed information about me. In projects section I added detail description of 3 projects and github/deployed site link. In resume section, I added information about my skills, career objective and Education. 
 
-Also added Resume, Project and Contact section. Earlier thought of importing resume pdf but the image wasn’t clear after trying importing PDF so ended up displaying information. Page responsiveness took time and added media query for that. Also checked the accessibility and performance of page.
+Earlier thought of importing resume pdf but the image wasn’t clear after trying importing PDF so ended up displaying information. In contact section, I used contact form and displaying alert on submit the form. Also added CSS effects.
 
-In the future I would like to add images of projects and with next and previous button.
+Page responsiveness took time and added media query for that. Used bootstrap for contact form and checked the accessibility and performance of page using WAVE and lighthouse.
+
+In the future I would like to add images of projects and with next and previous button to slide each image in a div.
 
 
 Github project repository files workflow:
@@ -33,7 +35,4 @@ https://github.com/sk192/portfolioproject
 Deployed project link:
 
 https://sk192.github.io/portfolioproject/
-
-
-
 
