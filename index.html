@@ -32,8 +32,12 @@
 
     <section class="about" id="about">
         <div class="about-div">
-            <h3><b><center>ABOUT ME</center></b></h3>
-            <center><img src="shweta_pic.jpg" alt="my profile image" style="width: 250px; height: 250px;border-radius: 50%;" /></center>
+            <header class="page-header">
+                <h3>ABOUT ME</h3>
+                <img src="shweta_pic.jpg" alt="my profile image" style="width: 250px; height: 250px;border-radius: 50%;" />
+            </header>
+           
+            
             <div class="para-div">
                 <p>
                     I am Shweta Korulkar. I am Computer Science graduate student at Portland
@@ -47,7 +51,9 @@
     </section>
  
     <section class="resume" id="resume">
-        <h3><b><center>RESUME</center></b></h3>
+        <header class="page-header">
+            <h3>RESUME</h3>
+        </header>
         <ul>
             <li><strong>Career Objective: </strong></li>
             <p>As a computer science student, I have knowledge in different fields and looking for entry-level full time
@@ -86,7 +92,9 @@
         </ul>
     </section>
     <section class="project" id="project">
-        <h3><b><center>PROJECTS</center></b></h3>
+        <header class="page-header">
+            <h3>PROJECTS</h3>   
+        </header>
         <p><strong><span style="color:rgb(70, 225, 65)">***** Weather-Hike-WebApp *****</span></strong></p>
         <ul>
             <li>
@@ -169,7 +177,9 @@
         </ul>
     </section>
     <section class="contact" id="contact">
-        <p><b><center>CONTACT ME</center></b></p>
+        <header class="page-header">
+            <h3>CONTACT ME</h3>      
+        </header>
         <form action="#" onsubmit="handleSubmit()">
             <div class="form-div">
                 <div class="form-group">
@@ -184,14 +194,13 @@
                     <label for="textarea">Enter Message: </label>
                     <textarea class="form-control" rows="10" cols="30" placeholder="Enter Message" id="textarea"></textarea> 
                 </div>
-                 <input type="submit" value="Submit" class="btn" ><br>
-                
+                 <input type="submit" value="Submit" class="btn" ><br>  
             </div>
 
         </form>
     </section>
-    <footer>
-        <center><span>Created By <a href="https://github.com/sk192/PortfolioProject" class="footer-link">Shweta Korulkar</a> </span></center>
+    <footer class="page-footer">
+        <span>Created By <a href="https://github.com/sk192/PortfolioProject" class="footer-link">Shweta Korulkar</a> </span>
     </footer>
     <script>
         function handleSubmit(){
