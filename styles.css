@@ -84,6 +84,15 @@ header.page-header > h3{
 .resume {
   background-color: #0808083a;
 }
+
+.lists{
+  font-weight: bold;
+}
+
+.project-name{
+  color: rgb(70, 225, 65);
+  font-weight: bold;
+}
 .project {
   background-color: #080808a9;
   color: var(--white);
