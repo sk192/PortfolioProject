@@ -67,12 +67,23 @@ section {
   margin-top: auto;
 }
 
-header.page-header{
-  text-align: center;
+.figure {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
-header.page-header > h3{
-  font-weight:bold;
+header.page-header,
+figure {
+  text-align: center;
+}
+header.page-header:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+header.page-header > h3 {
+  font-weight: bold;
 }
 
 .para-div {
@@ -85,11 +96,11 @@ header.page-header > h3{
   background-color: #0808083a;
 }
 
-.lists{
+.lists {
   font-weight: bold;
 }
 
-.project-name{
+.project-name {
   color: rgb(70, 225, 65);
   font-weight: bold;
 }
@@ -98,13 +109,9 @@ header.page-header > h3{
   color: var(--white);
 }
 .project-link {
-  color: white !important;
-  text-decoration: none;
+  color: orange !important;
 }
 
-.project-link:hover {
-  background-color: orange;
-}
 .contact {
   background-color: #0808083a;
 }
@@ -142,12 +149,11 @@ footer {
   color: var(--white);
 }
 
-footer.page-footer{
+footer.page-footer {
   text-align: center;
 }
 .footer-link {
-  color: var(--white);
-  text-decoration: none;
+  color: orange;
 }
 .footer-link:hover {
   background-color: var(--orange);
