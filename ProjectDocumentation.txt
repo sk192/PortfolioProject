@@ -13,17 +13,17 @@ Week 2:
 
 Ever since the announcement of project I was wondering how should I represent the information. Should I use different pages and navigation to these pages or should I use just single page and jumping on each section design. I wanted to create website using HTML, CSS and JavaScript as I already created two web application using React js. So I decided to create website only using HTML, CSS and JavaScript. 
 
-While working on this project, I first created a wireframe on how my porfolio will look like. I  started with basic layout. Created a page with navbar, body, footer. On navbar, I created links and navigated those links on different section of page. For navbar, I used <nav> with <ul> and <li> tag.
+While working on this project, I first created a wire-frame on how my portfolio will look like. I  started with basic layout. Created a page with navbar, body, footer. On navbar, I created links and navigated those links on different section of page. For navbar, I used <nav> with <ul> and <li> tag.
 
 When I was working on navbar, after minimizing the screen navbar was collapsing on first section which is about section in my portfolio. And this was happening because of nav type css selector. I fixed this issue by using css for navbar class instead of <nav>.
 
-After navbar, I started working on body sections. Added about section, project section, resume section and contact section one after another. And navigated to each section using id attribute in <a> tag. For each section I used different background color to differentiate each section. In about section, I displayed information about me with my profile picture. In projects section, I added detail description of 3 projects: Weather-hike web application, COVID-19 dashboard and MIT Battlecode game. Also added github/deployed site link. In resume section, I added information about my skills, career objective and Education. 
+After navbar, I started working on body sections. Added about section, project section, resume section and contact section one after another. And navigated to each section using id attribute in <a> tag. For each section I used different background color to differentiate each section. In about section, I displayed information about me with my profile picture. In projects section, I added detail description of 3 projects: Weather-hike web application, COVID-19 dashboard and MIT Battlecode game. Also added GitHub/deployed site link. In resume section, I added information about my skills, career objective and Education. 
 
 When I was working on resume section, I tried importing pdf but the image was not clear so I listed each part of resume. In contact section, I used contact form where you can enter your name, your email address and your query in the message section and displaying alert on submit the form.
 
 After completing all sections of the page, I worked on Page responsiveness. I added media query and used some css to create responsive website. For contact form, I used bootstrap effect and checked the accessibility and performance of website using WAVE and lighthouse.
 
-To finalize this website, I made little adjustaments like the background color contrast issue. Finally, I deployed my project using github pages and it's all set.
+To finalize this website, I made little adjustments like the background color contrast issue, added resume pdf link to download pdf, added hover effect to header in project section etc. Finally, I deployed my project using GitHub pages and it's all set.
 
 In the future I would like to add images of projects and with next and previous button to slide each image in a div. And hover effect to the image to display the information of project.
 
@@ -35,6 +35,9 @@ Github project repository files workflow:
 
     • index.html – HTML page 
     • styles.css – CSS file
+
+Stack:
+    • CSS bootstrap
       
 REFERENCE: 
 
